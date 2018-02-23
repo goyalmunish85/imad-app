@@ -16,5 +16,6 @@ button.onclick = function(){
         }
     }
     request.open('GET','http://goyalmunish85.imad.hasura-app.io/counter',true)
+    
     request.send(null);
 }
